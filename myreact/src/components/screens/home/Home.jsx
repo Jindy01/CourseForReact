@@ -8,10 +8,11 @@ function Home() {
         Cars catalog
       </h1>
       <div>
-        <div className={styles.item }>
-            <h2>Cars</h2>
-            <p>Cost : $ 100к </p>
-            <button>Read More</button>
+        <div className={styles.item} >
+          <img src='' alt="" />
+          <h2>Cars</h2>
+          <p>Cost : $ 100к </p>
+          <button>Read More</button>
         </div>
       </div>
     </div>
