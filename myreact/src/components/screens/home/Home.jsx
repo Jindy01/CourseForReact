@@ -1,23 +1,25 @@
-import React from "react";
-import styles from "./Home.module.css";
-import car from '/img/Car-1.jpg'
+import React, { useMemo } from "react";
+import { cars } from './cars.data.js';
+import CarItem from "./car-item/CarItem";
+import CreateCarForm from "./create-car-form/CrateCarForm.jsx";
 
 function Home() {
+
+  // const filtereCars = useMemo(() => cars.filter(car => car.price > 20000), []);  
+
   return (
     <div>
-      <h1>
-        Cars catalog
-      </h1>
+      <h1>Cars Catalog</h1>
+      <CreateCarForm />
       <div>
-        <div className={styles.item} >
-          {/* <img src='D:\OneDrive\Рабочий стол\CourseForReact\myreact\src\img\Car-1.jpg' alt="" /> */}
-          <img src="D:\OneDrive\Рабочий стол\CourseForReact\myreact\src\img\Car-1.jpg" alt="" />
-          <h2>Cars</h2>
-          <p>Cost : $ 100к </p>
-          <button>Read More</button>
-        </div>
+        {cars.length ? (cars.map(car =>
+          <CarItem key={car.id} car={car} />)
+        ) : (
+          <p>Cars not found</p>
+        )}
       </div>
     </div>
+
   );
 }
 

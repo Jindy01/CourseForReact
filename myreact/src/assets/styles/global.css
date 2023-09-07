@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
     color: white;
+    padding: 30px 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
-/* .new {
-    color: red;
-} */
+h1 {
+    margin-bottom: 20px;
+}
