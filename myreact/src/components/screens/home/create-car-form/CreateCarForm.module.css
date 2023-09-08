@@ -12,7 +12,7 @@
     margin-bottom: 10px;
 }
 
-.form:focus {
+.form input:focus {
     border-color: aqua;
 }
 
