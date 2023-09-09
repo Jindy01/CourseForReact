@@ -1,16 +1,18 @@
-import React, { useMemo } from "react";
-import { cars } from './cars.data.js';
+import React, { useState } from "react";
+import { cars as carsData } from './cars.data.js';
 import CarItem from "./car-item/CarItem";
 import CreateCarForm from "./create-car-form/CrateCarForm.jsx";
+import axios from "axios";
+// import { CarService } from "../../../services/car.service.js";
 
 function Home() {
 
-  // const filtereCars = useMemo(() => cars.filter(car => car.price > 20000), []);  
+  const [cars, setCars] = useState();
 
   return (
     <div>
       <h1>Cars Catalog</h1>
-      <CreateCarForm />
+      <CreateCarForm setCars={setCars} />
       <div>
         {cars.length ? (cars.map(car =>
           <CarItem key={car.id} car={car} />)
@@ -19,7 +21,6 @@ function Home() {
         )}
       </div>
     </div>
-
   );
 }
 
