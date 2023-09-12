@@ -11,6 +11,7 @@ const Router = () => {
             <Route path="*" element={<div> Not Found</div>} />
         </Routes>
         
+        
     </BrowserRouter>
 }
 
