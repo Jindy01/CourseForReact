@@ -15,5 +15,127 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "cars": [
+    {
+      "id": 1,
+      "name": "Toyota Camry",
+      "price": 24970,
+      "image": "https://motor.ru/imgs/2023/03/27/07/5850601/b7834cb797d709635d14892ca09f97f395ea4137.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "price": 32350,
+      "image": "https://cdn.motor1.com/images/mgl/RzE0m/s1/2020-honda-civic-hatchback-facelift.webp"
+    },
+    {
+      "id": 3,
+      "name": "Nissan Altima",
+      "price": 27999,
+      "image": "https://example.com/nissan.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ford Mustang",
+      "price": 41950,
+      "image": "https://cdn.motor1.com/images/mgl/0XWoD/s1/2023-ford-mustang-shelby-gt500.webp"
+    },
+    {
+      "id": 5,
+      "name": "Chevrolet Camaro",
+      "price": 25200,
+      "image": "https://cdn.motor1.com/images/mgl/lO5wG/s1/2023-chevrolet-camaro-zl1.webp"
+    },
+    {
+      "id": 6,
+      "name": "Volkswagen Golf",
+      "price": 23595,
+      "image": "https://cdn.motor1.com/images/mgl/1lwR9/s1/vw_golf_8_r_uk_version.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mercedes-Benz C-Class",
+      "price": 41550,
+      "image": "https://cdn.motor1.com/images/mgl/2ME0G/s1/2023-mercedes-c-class-all-terrain-spy.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Audi A4",
+      "price": 39800,
+      "image": "https://cdn.motor1.com/images/mgl/WvNz2/s1/2023-audi-a4-facelift-spy-photos.jpg"
+    },
+    {
+      "id": 9,
+      "name": "BMW 3 Series",
+      "price": 42950,
+      "image": "https://cdn.motor1.com/images/mgl/2YNYm/s1/2023-bmw-3-series-prototype-spy-photo.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Lexus ES",
+      "price": 40950,
+      "image": "https://cdn.motor1.com/images/mgl/2KpX0/s1/2023-lexus-es-spy-photos.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Subaru Impreza",
+      "price": 19995,
+      "image": "https://cdn.motor1.com/images/mgl/Zkg0E/s1/2023-subaru-impreza-spy-photos.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Mazda3",
+      "price": 20550,
+      "image": "https://cdn.motor1.com/images/mgl/jLkg0/s1/2023-mazda3-spy-photos.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Hyundai Elantra",
+      "price": 19650,
+      "image": "https://cdn.motor1.com/images/mgl/kykg0/s1/2023-hyundai-elantra-spy-photos.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Kia Optima",
+      "price": 21990,
+      "image": "https://cdn.motor1.com/images/mgl/ZXkg0/s1/2023-kia-optima-spy-photos.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Ford Focus",
+      "price": 18995,
+      "image": "https://cdn.motor1.com/images/mgl/2qkg0/s1/2023-ford-focus-spy-photos.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Chevrolet Malibu",
+      "price": 24690,
+      "image": "https://cdn.motor1.com/images/mgl/8pkg0/s1/2023-chevrolet-malibu-spy-photos.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Nissan Sentra",
+      "price": 21490,
+      "image": "https://cdn.motor1.com/images/mgl/3pkg0/s1/2023-nissan-sentra-spy-photos.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Volkswagen Jetta",
+      "price": 20695,
+      "image": "https://cdn.motor1.com/images/mgl/jpkg0/s1/2023-vw-jetta-spy-photos.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Honda Accord",
+      "price": 25700,
+      "image": "https://cdn.motor1.com/images/mgl/4pkg0/s1/2023-honda-accord-spy-photos.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Toyota Corolla",
+      "price": 20525,
+      "image": "https://cdn.motor1.com/images/mgl/yXkg0/s1/2023-toyota-corolla-spy-photos.jpg"
+    }
+  ]
 }
