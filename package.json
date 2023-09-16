@@ -3,7 +3,11 @@
     "axios": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.16.0",
+=======
+    "react-router-dom": "^6.15.0",
+>>>>>>> 5f01ce466be60ff552b40fa82fea62782292aa24
     "react-scripts": "^5.0.1",
     "web-vitals": "^3.4.0"
   },

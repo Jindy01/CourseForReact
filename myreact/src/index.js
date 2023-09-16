@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './assets/styles/global.css';
+<<<<<<< HEAD
 import Routers from '../src/components/screens/home/Router';
 import Home from './components/screens/home/Home';
 // import Home from './components/screens/home/Home';
+=======
+import Router from '../src/components/Router';
+>>>>>>> 5f01ce466be60ff552b40fa82fea62782292aa24
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home/>
+    <Router/>
+    
   </React.StrictMode>
 );
 

@@ -24,4 +24,5 @@ export const cars = [
     price: 19220,
     image: 'https://cdn.motor1.com/images/mgl/RzE0m/s1/2020-honda-civic-hatchback-facelift.webp',
   },
+  
 ];
